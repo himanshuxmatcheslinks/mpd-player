@@ -63,11 +63,20 @@
 
       const videoConfigs = [
         {
-          id: 'FIGHT SPORTS',
-          manifestUri: 'https://fsly.stream.peacocktv.com/Content/CMAF_OL1-CTR-4s/Live/channel(usa-east)/master.mpd',
+          id: 'usaeast',
+          manifestUri: 'https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(usa-east)/master.mpd',
           drmConfig: {
             clearKeys: {
-              '78ab64fa90f137a697743b5dc27b2f96': 'de4d31c7fc6005ede28abab2a0720a9f'
+              '043ba1b4a2823fc4a6033178f3560431': '684358d80874b55f9335c73126e4d44e'
+            }
+          }
+        },
+        {
+          id: 'usawest',
+          manifestUri: 'https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(usa-west)/master.mpd',
+          drmConfig: {
+            clearKeys: {
+              '7f1648ec1c8836baa028e319d92e0841': '93ba967ec39964d9a6359044ec5c3500'
             }
           }
         },
